@@ -9,7 +9,7 @@ puts "how many times would you like to roll the die?"
 		roll_result2 = rand(1..6)
 		resulting_total = roll_result1 + roll_result2
 		puts "you rolled #{roll_result1} and #{roll_result2} so the result is #{resulting_total}"
-			if roll_result1 == roll_result2
+			if roll_result1 == roll_result2 #if roll results are equal then put doubles
 				puts "Doubles!"
 			else 
 			end
