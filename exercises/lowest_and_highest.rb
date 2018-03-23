@@ -9,8 +9,6 @@ puts "how many times would you like to roll the die?"
 		puts "the result of the roll is #{roll_result}"
 		 
 	end 
-	
-
 sorted_array = roll_results.sort
 
 puts "the highest number is #{sorted_array.last}"
